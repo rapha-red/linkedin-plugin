@@ -1,0 +1,12 @@
+{
+  "name": "linkedin-plugin",
+  "interface": { "displayName": "LinkedIn Plugin" },
+  "plugins": [
+    {
+      "name": "linkedin-plugin",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

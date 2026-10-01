@@ -1,0 +1,9 @@
+---
+type: llm
+focus: last_message
+---
+
+You see only the assistant's reply, so here is the user's persona file in brief. Maya Brandt, independent B2B tech recruiter placing backend and data engineers at Series A to C SaaS companies in the US Midwest. Audience: engineering managers and CTOs at 20 to 200 person SaaS companies. Offer: contingency search for senior engineers, fair to mention once a hiring manager says they are hiring. Story bank: 9 years recruiting, the last 4 on her own; placed 31 engineers in 2025, median time to offer 34 days; a take-home over 3 hours loses the best candidates (she lost 2 finalists to it in 2024). Sample line: "Most of my searches stall at the offer, not the pipeline." Off limits: client names, fee percentages. Settings: language English, approval per item, timezone America/Chicago (Central), active hours 08:00 to 22:00, no CRM. Any of these may appear in a draft, retold or paraphrased.
+The thread: Maya's post on offers; top-level comment by Priya Nair ("In my team the offer is fine, the problem is our 5-round loop."); under it Maya's reply asking which round loses people, then Tom Ellis: "Same here, but we can't cut rounds because every team lead wants their own interview. How would you handle that?" The persona file holds no method for handling team leads who each want an interview.
+PASS if the reply drafts a reply to Tom (an answer grounded in the persona, or a grounded question back plus a request for the user's own view), states or shows that it goes under Priya Nair's top-level comment (not a new comment on the post and not under Tom's reply), and the draft starts by mentioning Tom (an @mention or his name at the start).
+FAIL if the parent is not Priya's top-level comment, or the draft does not begin with a mention of Tom, or the draft states a fact, result or method that is not in the persona above.

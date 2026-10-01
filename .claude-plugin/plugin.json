@@ -1,0 +1,10 @@
+{
+  "name": "linkedin-plugin",
+  "description": "LinkedIn skills for AI agents: posts, comments, replies, DMs and inbox in your own voice, with evidence-graded rules and you choose what gets sent and when.",
+  "version": "1.0.0",
+  "author": { "name": "Raphael Redmer", "url": "https://github.com/rapha-red" },
+  "homepage": "https://github.com/rapha-red/linkedin-plugin",
+  "repository": "https://github.com/rapha-red/linkedin-plugin",
+  "license": "MIT",
+  "keywords": ["linkedin", "linkedin-posts", "linkedin-comments", "linkedin-dm", "linkedin-inbox", "social-selling", "personal-branding", "ghostwriting", "humanizer", "agent-skills"]
+}

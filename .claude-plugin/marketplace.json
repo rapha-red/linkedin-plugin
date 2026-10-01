@@ -1,0 +1,15 @@
+{
+  "name": "linkedin-plugin",
+  "owner": { "name": "Raphael Redmer", "url": "https://github.com/rapha-red" },
+  "metadata": { "description": "LinkedIn skills for AI agents: posts, comments, replies, DMs and inbox in your own voice, with evidence-graded rules and you choose what gets sent and when." },
+  "plugins": [
+    {
+      "name": "linkedin-plugin",
+      "source": "./",
+      "description": "LinkedIn skills for AI agents: posts, comments, replies, DMs and inbox in your own voice, with evidence-graded rules and you choose what gets sent and when.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "category": "productivity"
+    }
+  ]
+}

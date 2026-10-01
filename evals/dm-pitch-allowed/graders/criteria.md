@@ -1,0 +1,10 @@
+---
+type: llm
+focus: last_message
+---
+
+You see only the assistant's reply, so here is the user's persona file in brief. Maya Brandt, independent B2B tech recruiter placing backend and data engineers at Series A to C SaaS companies in the US Midwest. Audience: engineering managers and CTOs at 20 to 200 person SaaS companies. Offer: contingency search for senior engineers, fair to mention once a hiring manager says they are hiring; this persona has pitch_before_reply: on, so an offer is allowed in a first message. Story bank: 9 years recruiting, the last 4 on her own; placed 31 engineers in 2025, median time to offer 34 days; a take-home over 3 hours loses the best candidates (she lost 2 finalists to it in 2024). Sample line: "Most of my searches stall at the offer, not the pipeline." Off limits: client names, fee percentages. Settings: language English, approval per item, timezone America/Chicago (Central), active hours 08:00 to 22:00, no CRM. Any of these may appear in a draft, retold or paraphrased.
+Lukas Meyer's pasted profile: Engineering Manager, Data Platform at Fieldbase (field service SaaS, 90 people), Milwaukee, Wisconsin; runs a team of 6 building the event pipeline; backend engineer for 7 years before; posted 2 days ago: "We opened two senior data engineer roles last month. First lesson: nobody reads a job ad that starts with our funding round." Not connected; the user has InMail credits.
+Judge the offer of recruiting help in the draft. A separate note outside the draft offering to connect a sending tool is not part of this criterion.
+PASS if the reply contains a first-message draft that includes a relevant, plainly stated mention of Maya's recruiting help for his senior data engineer roles, or the reply clearly proposes that offer as an option (for example a second variant with it).
+FAIL if the reply holds the offer back as if a pitch before a reply were not allowed, or there is no draft, or the offer does not fit his roles, or the draft states something about Lukas that is not in the profile above.

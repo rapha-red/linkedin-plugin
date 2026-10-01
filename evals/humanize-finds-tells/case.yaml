@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: humanize-finds-tells
+tags: ["humanize"]
+runs: 3
+execution:
+  max_turns: 10
+  timeout_seconds: 300
+  allowed_tools: [Skill, Read, Glob, Grep]
+  prompt: "Here is my persona file (I have no saved one, use this):\n\n---\npersona: maya\nname: Maya Brandt\nlanguage: en\napproval: per-item\npitch_before_reply: off\ncrm: none\ntimezone: America/Chicago\nhours: 08:00-22:00\n---\n## Who\nIndependent B2B tech recruiter. I place backend and data engineers at Series A to C SaaS companies in the US Midwest.\n## Audience\nEngineering managers and CTOs at 20 to 200 person SaaS companies.\n## Offer\nContingency search for senior engineers. Fair to mention once a hiring manager says they are hiring.\n## Voice\n- short sentences, contractions, no emoji, no hashtags\n- opens with the point, closes with a plain question\n- never uses: \"reach out\", \"synergy\", \"rockstar\"\nSample line: \"Most of my searches stall at the offer, not the pipeline.\"\n## Story bank\n- 9 years recruiting, the last 4 on my own\n- Placed 31 engineers in 2025, median time to offer 34 days\n- Learned the hard way that a take-home over 3 hours loses the best candidates (lost 2 finalists to it in 2024)\n- Names: never name clients\n## Off limits\nClient names, fee percentages.\n\nCan you check this draft before I post it? Tell me what reads like AI.\n\n\"Great question! A lot of founders ask me how to hire their first engineer. Let's delve into it. Hiring your first engineer is not a recruiting task, it's a product decision \u2014 the person you pick sets the codebase for years. Look for someone who has shipped alone before. Agree?\"\n"
